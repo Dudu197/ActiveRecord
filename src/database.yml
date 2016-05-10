@@ -1,13 +1,13 @@
 development:
     host: localhost
-    adapter: mssql
-    database: tbVeiculos
-    username: sa
-    password: foa
+    adapter: mysql
+    database: db
+    username: username
+    password: passwd
     
 production:
     host: localhost
-    adapter: mssql
-    database: tbVeiculos
-    username: sa
-    password: foa
+    adapter: mysql
+    database: db
+    username: username
+    password: passwd
